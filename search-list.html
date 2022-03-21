@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Поиск</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220321215800">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__first">
+				<div class="header__container">
+					<div class="header__first header-up">
+						<div class="header-up__icon _icon-coin"></div>
+						<div class="header-up__text">Мы не продаем копии. Проводим визуальный осмотр нашими экспертами.</div>
+						<nav class="header-up__menu">
+							<ul class="header-up__list">
+								<li><a href="sell.html" class="header-up__link">Как продать монеты</a></li>
+								<li><a href="FAQ.html" class="header-up__link">Вопросы</a></li>
+								<li><a href="order.html" class="header-up__link">Оформление заказа</a></li>
+								<li><a href="delivery.html" class="header-up__link">Доставка и оплата</a></li>
+								<li><a href="return.html" class="header-up__link">Возврат</a></li>
+							</ul>
+						</nav>
+						<div class="header-up__actions">
+							<div data-spollers class="header-up__spoller header-up__language">
+								<div class="header-up__item">
+									<button type="button" data-spoller class="header-up__title">RU</button>
+									<ul class="header-up__bodylang">
+										<li class="header-up__spollermenu"><a href="#">EN</a></li>
+										<li class="header-up__spollermenu"><a href="#">EN</a></li>
+										<li class="header-up__spollermenu"><a href="#">EN</a></li>
+									</ul>
+								</div>
+							</div>
+							<div data-spollers class="header-up__spoller">
+								<div class="header-up__item">
+									<button type="button" data-spoller class="header-up__title">RUB<span class="_icon-arrow-bottom"></span></button>
+									<ul class="header-up__body">
+										<li class="header-up__spollermenu"><a href="#">DLR</a></li>
+										<li class="header-up__spollermenu"><a href="#">EUR</a></li>
+										<li class="header-up__spollermenu"><a href="#">UAH</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hero__header">
+				<div class="hero__container">
+					<div class="hero__menu hero-header">
+						<a href="#"><picture><source srcset="img/hero/logo.webp" type="image/webp"><img src="img/hero/logo.png" alt="" class="hero-header__logo"></picture></a>
+						<nav class="hero-header__nav">
+							<ul class="hero-header__links">
+								<li><a href="catalog.html" class="hero-header__link _icon-catalog">Каталог</a></li>
+								<li><a href="collection.html" class="hero-header__link">Коллекция</a></li>
+								<li><a href="magazine.html" class="hero-header__link">Магазин</a></li>
+							</ul>
+						</nav>
+						<nav class="hero-header__actions">
+							<ul class="hero-header__list">
+								<li data-spollers class="spollers">
+									<div class="hero-header__item">
+										<button type="button" data-spoller class="hero-header__action _icon-search">Поиск</button>
+										<div>
+											<form action="#">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Начните вводить название монеты" class="hero-header__input _icon-search">
+											</form>
+										</div>
+									</div>
+								</li>
+								<li><a href="shopping-cart.html" class="hero-header__action _icon-cart">Корзина</a><span class="hero-header__decorate1">2</span></li>
+								<li><a href="favourite.html" class="hero-header__action _icon-favourite">Избранное</a><span class="hero-header__decorate2">24</span></li>
+							</ul>
+						</nav>
+						<div class="hero-header__user">
+							<a href="personal.html" class="hero-header__login">Личный кабинет</a>
+							<a href="register.html" class="hero-header__login">Регистрация</a>
+						</div>
+						<!-- <div class="hero-header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">123</a></li>
+							<li class="menu__item"><a href="" class="menu__link">312</a></li>
+							<li class="menu__item"><a href="" class="menu__link">312</a></li>
+						</ul>
+					</nav>
+				</div> -->
+		</header>
+		<main class="page">
+			<section class="nav">
+				<div class="nav__container">
+					<ul class="nav__list">
+						<li class="nav__links"><a href="home.html">Главная</a></li>
+						<li class="nav__links"><a href="search.html">Поиск</a></li>
+					</ul>
+					<div class="delivery__title title">
+						<span class="title__decorate"></span>
+						<div class="title__text">Поиск монеты</div>
+					</div>
+				</div>
+			</section>
+			<section class="filters">
+				<div class="filters__container">
+					<form action="#" class="filters__search">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="25 лет правления Елизаветы" class="filters__input">
+					</form>
+					<div class="filters__filters">
+						<div class="filters__filter">
+							<div class="filters__name">Великобритания</div>
+							<div class="filters__number">30</div>
+						</div>
+						<div class="filters__filter">
+							<div class="filters__name">Соединённое Королевство Великобритания</div>
+							<div class="filters__number">30</div>
+						</div>
+						<div class="filters__filter">
+							<div class="filters__name">Правление Елизаветы II</div>
+							<div class="filters__number">14</div>
+						</div>
+						<div data-spollers class="filters__spollers filter-spoller">
+							<div class="filter-spoller__item">
+								<button type="button" data-spoller class="filter-spoller__title">Заголовок спойлера</button>
+								<div class="filter-spoller__body">
+									<div class="filters__filter">
+										<div class="filters__name">Соединённое Королевство Великобритания</div>
+										<div class="filters__number">30</div>
+									</div>
+									<div class="filters__filter">
+										<div class="filters__name">Соединённое Королевство Великобритания</div>
+										<div class="filters__number">30</div>
+									</div>
+									<div class="filters__filter">
+										<div class="filters__name">Соединённое Королевство Великобритания</div>
+										<div class="filters__number">30</div>
+									</div>
+									<div class="filters__filter">
+										<div class="filters__name">Соединённое Королевство Великобритания</div>
+										<div class="filters__number">30</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="search-list.html" class="filters__category">
+							<img src="img/catalog/list-active.svg" alt="">
+						</a>
+						<a href="search.html" class="filters__category">
+							<img src="img/catalog/cards.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="money-list">
+				<div class="money-list__container">
+					<div class="money-list__main main-money-list">
+						<div class="main-money-list__items">
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+							<div class="main-money-list__item">
+								<div class="main-money-list__image">
+									<picture><source srcset="img/catalog/coin-list.webp" type="image/webp"><img src="img/catalog/coin-list.png" alt=""></picture>
+									<picture><source srcset="img/catalog/coin-big.webp" type="image/webp"><img class="main-money-list__image-big" src="img/catalog/coin-big.png" alt=""></picture>
+								</div>
+								<div class="main-money-list__name">25 пенсов "25 лет правления <br>Елизаветы II"</div>
+								<div class="main-money-list__desc">
+									<div class="main-money-list__year">1977</div>
+									<div class="main-money-list__material">алюминиевая <br>бронза</div>
+									<div class="main-money-list__letters">--</div>
+									<div class="main-money-list__rifles">252 рифления</div>
+									<div class="main-money-list__collection">Коллекционная</div>
+									<div class="main-money-list__price">
+										<div class="main-money-list__price-ammount">100 000 ₽<span class="main-money-list__price-info"><img src="img/catalog/price-info.svg" alt=""></span></div>
+										<div class="main-money-list__menu">
+											<div class="main-money-list__item-safety">
+												<div class="main-money-list__item-table">Сохранность</div>
+												<div class="main-money-list__item-table">Цена, руб.</div>
+												<div class="main-money-list__item-table">Проходы</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">F</div>
+												<div class="main-money-list__item-table">1 363</div>
+												<div class="main-money-list__item-table">120</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">XF</div>
+												<div class="main-money-list__item-table">5 317</div>
+												<div class="main-money-list__item-table">72</div>
+											</div>
+											<div class="main-money-list__item-item">
+												<div class="main-money-list__item-table">AU</div>
+												<div class="main-money-list__item-table">34 397</div>
+												<div class="main-money-list__item-table">50</div>
+											</div>
+										</div>
+									</div>
+									<div class="main-money-list__products">100 шт.</div>
+									<a href="#" class="main-money-list__add _icon-collection"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__first first-footer">
+				<div class="first-footer__container">
+					<div class="first-footer__main main-footer">
+						<div class="main-footer__logo"><picture><source srcset="img/footer/footer-logo.webp" type="image/webp"><img src="img/footer/footer-logo.png" alt=""></picture></div>
+						<div class="main-footer__nav">
+							<div class="main-footer__row1">
+								<div class="main-footer__menuleft">
+									<div class="main-footer__menu"><a href="catalog.html">Каталог</a></div>
+									<div class="main-footer__menu"><a href="collection.html">Коллекция</a></div>
+									<div class="main-footer__menu"><a href="magazine.html">Магазин</a></div>
+								</div>
+								<div class="main-footer__menuright">
+									<div class="main-footer__menu"><a href="about.html">О компании</a></div>
+									<div class="main-footer__menu"><a href="FAQ.html">Вопросы</a></div>
+									<div class="main-footer__menu"><a href="contact.html">Контакты</a></div>
+								</div>
+							</div>
+							<div class="main-footer__decorate"></div>
+							<div class="main-footer__row2">
+								<div class="main-footer__menu"><a href="sell.html">Как продать монеты</a></div>
+								<div class="main-footer__menu"><a href="order.html">Оформление заказа</a></div>
+								<div class="main-footer__menu"><a href="delivery.html">Доставка и оплата</a></div>
+								<div class="main-footer__menu"><a href="return.html">Возврат</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__second second-footer">
+				<div class="second-footer__container">
+					<div class="second-footer__main main-second">
+						<div class="main-second__policity">
+							<div class="main-second__text">© 2021 CoinColl</div>
+							<div class="main-second__button"><a href="">Политика конфиденциальности</a></div>
+						</div>
+						<div class="main-second__family">
+							<div class="main-second__text">Создание и продвижение -</div>
+							<div class="main-second__logo"><picture><source srcset="img/footer/footer-logo2.webp" type="image/webp"><img src="img/footer/footer-logo2.png" alt=""></picture></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+	<script src="js/app.min.js?_v=20220321215800"></script>
+</body>
+
+</html>
